@@ -1,0 +1,38 @@
+﻿insert into notice(uid,title,cont,file,reg_date) values('admin2020','몰 오픈을 축하합니다.','몰 오픈을 축하합니다.몰 오픈을 축하합니다.몰 오픈을 축하합니다.몰 오픈을 축하합니다.','../noticeDB_table.txt','2020-02-13');
+
+create table notice(
+idx int primary key not null auto_increment,
+uid varchar(20) not null,
+title varchar(70) not null,
+cont varchar(10000) not null,
+file mediumblob not null,
+reg_date DATETIME
+)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;
+
+create table news(
+idx int primary key not null auto_increment,
+uid varchar(20) not null,
+title varchar(70) not null,
+cont varchar(10000) not null,
+thumbnail mediumblob not null,
+file mediumblob not null,
+reg_date DATETIME
+)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;
+
+insert into  news(uid,title,cont,thumbnail,file,reg_date) values('admin2020','휴가 시즌 막바지 힐링 선사할 분위기 좋은 도심 레스토랑','여름 휴가 시즌이 막바지로 접어들면서 관광이나 휴양 대신 맛있는 음식을 먹으며 힐링을 찾는 사람들이 늘고 있다. 여가 플랫폼 기업 야놀자가 취업포털 잡코리아와 함께 성인남녀 2천373명을 대상','right_news01.jpg','news_content01.jpg','2020-02-20');
+
+create table product(
+idx int primary key not null auto_increment,
+uid varchar(20) not null,
+name varchar(70) not null,
+origin varchar(20) not null,
+price varchar(10) not null,
+sale_price varchar(10) not null,
+cont varchar(10000) not null,
+thumbnail mediumblob not null,
+file mediumblob not null,
+reg_date DATETIME
+)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;
+
+
+insert into  product(uid,name ,cont,thumbnail,file,reg_date) values('admin2020','휴가 시즌 막바지 힐링 선사할 분위기 좋은 도심 레스토랑','여름 휴가 시즌이 막바지로 접어들면서 관광이나 휴양 대신 맛있는 음식을 먹으며 힐링을 찾는 사람들이 늘고 있다. 여가 플랫폼 기업 야놀자가 취업포털 잡코리아와 함께 성인남녀 2천373명을 대상','right_news01.jpg','news_content01.jpg','2020-02-20');

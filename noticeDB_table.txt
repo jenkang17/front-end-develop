@@ -1,0 +1,8 @@
+create table notice(
+idx int(11) primary key auto_increment,
+uid varchar(20) not null,
+title varchar(70) not null,
+cont varchar(10000) not null,
+file mediumblob,
+reg_date datetime 
+);

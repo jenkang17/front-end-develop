@@ -1,0 +1,4 @@
+@media ( max-width: 1024px ) {
+.wrap {background: red;}
+header .gnb ul li {margin-right: 50px;}
+}

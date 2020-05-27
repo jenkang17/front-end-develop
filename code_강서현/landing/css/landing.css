@@ -1,0 +1,132 @@
+/*reset*/
+body,h1,h2,h3,h4,p,div,ul,li,dl,dt,dd{margin:0;padding:0;font-family: 'Open Sans Condensed', sans-serif;}
+p, span{font-family: 'Nanum Gothic'; font-size: 16px;}
+a{text-decoration:none;color:#222}
+ul,li{list-style:none}
+address{font-style:normal}
+
+.wrap {position: relative;}
+header {padding-top: 30px;z-index: 3; background-color: rgba(255,255,255,0.8);}
+.scroll_fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	border-bottom: 1px solid #ededed;
+	padding:10px 0;
+}
+header .gnb {width: 80%; margin: auto;}
+header .gnb ul {text-align: center;}
+header .gnb ul li {display: inline-block;text-indent: -9999px;margin-right: 120px;}
+header .gnb ul li a {display: block;height: 100%}
+header .gnb ul .gnb01 {background: url(../images/gnb01.png) no-repeat;width:68px;height:20px}
+header .gnb ul .gnb01 a:hover {background: url(../images/gnb01_1.png) no-repeat;}
+header .gnb ul .gnb02 {background: url(../images/gnb02.png) no-repeat;width:93px;height:20px}
+header .gnb ul .gnb02 a:hover {background: url(../images/gnb02_1.png) no-repeat;}
+header .gnb ul .gnb03 {background: url(../images/gnb03.png) no-repeat;width:128px;height:20px}
+header .gnb ul .gnb03 a:hover {background: url(../images/gnb03_1.png) no-repeat;}
+header .gnb ul .gnb04 {background: url(../images/gnb04.png) no-repeat;width:107px;height:20px; margin-right: 0}
+header .gnb ul .gnb04 a:hover {background: url(../images/gnb04_1.png) no-repeat;}
+.main{padding-top: 150px; text-align: center;margin-bottom: 307px;position: relative;}
+.main .main_bg {background: url(../images/main_bg.jpg) no-repeat; width: 560px; height: 452px;margin: auto;margin-bottom: 20px;}
+.main p {text-indent: -9999px;margin: auto;}
+.main h1 {height:30px ;width: 209px;background: url(../images/portfolio.jpg) no-repeat; text-indent: -9999px;margin: auto;margin-bottom: 10px;} 
+.main .name{margin-bottom: 100px;height:22px ;width: 209px;background: url(../images/name.jpg) no-repeat;} 
+.main .scroll{position: absolute;top:110%; left: 50%;margin-left: -38px;background: url(../images/scroll_bt.jpg) no-repeat;width:60px ;height: 68px;animation: motion 0.8s linear 0s infinite alternate;}
+@keyframes motion {
+	0%{margin-top: 0px;}
+	100%{margin-top: 20px;}
+}
+section {/*width: 1440px;*/ width:80%;margin: auto;}
+.profile {margin-bottom: 100px; overflow: hidden;}
+.profile .h2_01 {text-indent: -9999px;background: url(../images/h2_01.jpg) no-repeat; width: 276px; height: 77px; margin-bottom: 30px}
+.profile .profile_left {width: 49%; float: left;}
+.profile div div h4 {text-indent: -9999px;margin-bottom: 20px;}
+.profile div .about_me {margin-bottom: 50px}
+.profile div .about_me h4 {width:179px;height: 37px;background: url(../images/h2_01_1.jpg) no-repeat; }
+.profile div .about_me ul li {text-indent: -9999px; margin-bottom: 20px;}
+.profile div .about_me ul .name {width: 248px;height: 22px;background: url(../images/profile_name.jpg) no-repeat;}
+.profile div .about_me ul .age {width: 232px;height: 22px;background: url(../images/profile_age.jpg) no-repeat;}
+.profile div .about_me ul .adress {width: 293px;height: 22px;background: url(../images/profile_adress.jpg) no-repeat; margin-bottom: 0}
+.profile div .career {}
+.profile div .career h4 {width: 126px;height: 36px; background: url(../images/h2_01_2.jpg) no-repeat;}
+.profile div .career ul li {text-indent: -9999px; margin-bottom: 20px;}
+.profile div .career ul .career01 {width: 204px;height:48px; background: url(../images/career01.jpg) no-repeat; }
+.profile div .career ul .career02 {width: 277px;height:68px; background: url(../images/career02.jpg) no-repeat; }
+.profile div .career ul .career03 {width: 276px;height:71px; background: url(../images/career03.jpg) no-repeat; }
+.profile div .career ul .career03 a {display: block; height: 100%}
+.profile div .career ul .career03 a:hover {background: url(../images/career03_1.jpg) no-repeat;}
+.profile div .career ul .career04 {width: 291px;height:71px; background: url(../images/career04.jpg) no-repeat; margin-bottom: 0;}
+.profile div .career ul .career04 a {display: block; height: 100%}
+.profile div .career ul .career04 a:hover {background: url(../images/career04_1.jpg) no-repeat;}
+.profile .profile_right {width: 49%; float: right;}
+.profile div .skill {margin-bottom: 50px;}
+.profile div .skill h4 {width: 88px;height: 36px;background: url(../images/h2_01_3.jpg) no-repeat;}
+.profile div .skill ul {font-size: 0}
+.profile div .skill ul li {display: inline-block; text-indent: -9999px; margin-right: 88px;}
+.profile div .skill ul .skill_01 {width: 114px;height: 143px; background: url(../images/skill_01.jpg) no-repeat; margin-bottom: 40px;}
+.profile div .skill ul .skill_02 {width: 114px;height: 143px; background: url(../images/skill_02.jpg) no-repeat;}
+.profile div .skill ul .skill_03 {width: 114px;height: 148px; background: url(../images/skill_03.jpg) no-repeat;}
+.profile div .skill ul .skill_04 {width: 114px;height: 148px; background: url(../images/skill_04.jpg) no-repeat;margin-right: 0}
+.profile div .skill ul .skill_05 {width: 114px;height: 144px; background: url(../images/skill_05.jpg) no-repeat;}
+.profile div .skill ul .skill_06 {width: 114px;height: 149px; background: url(../images/skill_06.jpg) no-repeat;}
+.profile div .skill ul .skill_07 {width: 114px;height: 144px; background: url(../images/skill_07.jpg) no-repeat;}
+.profile div .skill ul .skill_08 {width: 114px;height: 144px; background: url(../images/skill_08.jpg) no-repeat;margin-right: 0}
+.profile div .license h4 {width: 136px;height: 36px;background: url(../images/h2_01_4.jpg) no-repeat;}
+.profile div .license p {width: 337px;height: 18px; text-indent: -9999px; background: url(../images/license.jpg) no-repeat;}
+
+.portfolio .h2_02 {margin-bottom: 30px;text-indent: -9999px; background: url(../images/h2_02.jpg) no-repeat; width: 361px; height: 77px;}
+.portfolio p {font-size: 18px; font-weight: 600}
+.portfolio span {color: #c60000;margin-bottom: 30px; display: inline-block;font-size: 18px; font-weight: 600}
+.portfolio .excelbeef h3 {display: inline-block;text-indent: -9999px;width:248px; height: 45px; background: url(../images/h3_01.jpg) no-repeat;margin-bottom: 10px;}
+.portfolio .excelbeef .page_nav{margin-bottom: 45px;}
+.portfolio > .excelbeef > .page_nav > ul > li {position: relative;display: inline-block;text-indent: -9999px; margin-right: 87px; padding-right: 30px;}
+.portfolio .excelbeef .page_nav > ul > li:last-child{margin-right: 0; padding-right: 0}
+.portfolio .excelbeef .page_nav > ul > li > ul {display: none; position: absolute; width: 185px; top:28px; padding: 15px 5px 10px 0;}
+.portfolio > .excelbeef > .page_nav > ul > li:hover ul {display: block;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav01 {width: 90px;height: 29px;background: url(../images/pg_nav01.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav01:hover {background: url(../images/pg_nav01_1.jpg) no-repeat;transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav01 > a {display: block;height: 100%;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav01 > ul {}
+.portfolio .excelbeef .page_nav > ul > .pg_nav02 {width: 77px;height: 37px; background: url(../images/pg_nav02.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav02:hover {background: url(../images/pg_nav02_1.jpg) no-repeat; transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav02 > a {display: block;height: 100%;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav03 {width: 101px;height: 29px; background: url(../images/pg_nav03.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav03:hover{background: url(../images/pg_nav03_1.jpg) no-repeat; transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav03 > a {display: block;height: 100%;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav04 {width: 214px;height: 29px; background: url(../images/pg_nav04.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav04:hover{background: url(../images/pg_nav04_1.jpg) no-repeat; transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav04 > a {display: block;height: 100%;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav05 {width: 120px;height: 29px; background: url(../images/pg_nav05.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav05:hover {background: url(../images/pg_nav05_1.jpg) no-repeat; transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav05 > a {display: block;height: 100%;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav06 {position: relative;width: 267px;height: 29px; background: url(../images/pg_nav06.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > .pg_nav06:hover {background: url(../images/pg_nav06_1.jpg) no-repeat; transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav06 > a {display: block;height: 100%;}
+.portfolio .excelbeef .page_nav > ul > li > ul > li {float: left;}
+.portfolio .excelbeef .page_nav > ul > li > ul > li:first-child{width: 80px; height: 19px; margin-right: 20px;}
+.portfolio .excelbeef .page_nav > ul > li > ul > li:first-child > a {display: block;height: 100%;background: url(../images/pg_before.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > li > ul > li:first-child > a:hover {background: url(../images/pg_before_1.jpg) no-repeat;transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > li > ul > li:last-child{width: 66px; height: 19px;}
+.portfolio .excelbeef .page_nav > ul > li > ul > li:last-child > a {display: block;height: 100%;background: url(../images/pg_after.jpg) no-repeat;}
+.portfolio .excelbeef .page_nav > ul > li > ul > li:last-child > a:hover {background: url(../images/pg_after_1.jpg) no-repeat;transition: 0.5s}
+.portfolio .excelbeef .page_nav > ul > .pg_nav06 > ul > .id_pw {width: 342px;height:19px;background: url(../images/pg_nav06_2.jpg) no-repeat; position: absolute; left: -76px} 
+.portfolio .excelbeef iframe {border: 1px solid #ededed;width: 100%; height: 650px; box-sizing: border-box; margin-bottom: 100px}
+.portfolio .cargill h3{text-indent: -9999px;width: 186px;height:45px; background: url(../images/h3_02.jpg) no-repeat;margin-bottom: 10px;}
+.portfolio .cargill span {margin-bottom: 20px; display: inline-block;}
+.portfolio .cargill a{position: relative;height: 650px; border: 1px solid #ededed; display: block; margin-bottom: 100px;background: url(../images/cargill_bg.jpg) no-repeat; background-size: cover}
+.portfolio .cargill a:hover p{border: 10px solid rgba(0,237,6);transition: all .4s ease-in-out 0s; position: absolute;top: 0; right: 0; bottom: 0; left: 0;}
+.portfolio .cargill a p span {text-indent: -9999px;width: 0; height: 0}
+.portfolio .cargill a:hover p span {width: 214px; height: 75px; background: url(../images/click.png) no-repeat; margin: auto; display:block; margin-top: 288px;}
+.contact {margin-bottom: 100px;}
+.contact .h2_03 {text-indent: -9999px; width: 317px;height: 78px; background: url(../images/h2_03.jpg) no-repeat; margin-bottom: 50px;}
+.contact ul {}
+.contact ul li {display: inline-block; text-indent: -9999px;margin-right: 286px; position: relative;}
+.contact ul li:hover p {display: block; transition: .8s}
+.contact ul li a {display: block;height: 100%}
+.contact ul li p {font-family: 'Open Sans Condensed', sans-serif;font-weight: 600;color: #adadad; display: none;text-indent: initial;padding: 30px 0 20px 0; position: absolute; right: 0; bottom: -50px; text-align: right;}
+.contact ul .phone {width:283px;height: 200px;background: url(../images/phone.png) no-repeat;}
+.contact ul .phone p {width: 283px;}
+.contact ul .open_talk {width:328px;height: 200px;background: url(../images/talk.png) no-repeat;}
+.contact ul .open_talk p {width: 328px}
+.contact ul .email {width:286px;height: 200px;background: url(../images/email.png) no-repeat;margin-right: 0}
+.contact ul .email p{width: 286px}
